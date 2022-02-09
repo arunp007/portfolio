@@ -1,0 +1,81 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="{% static 'css/porf.css' %}">
+</head>
+<body>
+    <div class="bg">
+        &nbsp;&nbsp;&nbsp;
+        <a href="#a">Home</a>&nbsp;
+        <a href="#b">About</a>&nbsp;
+        <a href="#c">Portfolio</a>&nbsp;
+        <a href="#d">Contact</a>&nbsp;
+        <h1 id="a">Hi, It's Me Arun</h1><br><br><br><br>
+        <h1>Iam A Python Developer</h1><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    </div>
+     <div class="background12">
+         <h2 class="txt" id="b">ABOUT</h2>
+         <img src="{% static 'images/arun.jpg' %}" alt="" style="padding: 50px;">
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;My Name Is Arun Pacheeri Iam A Full Stack Developer From Kerala. Iam A Bsc Computer Science Graduate And Iam Interested In Coding Since On My 11th And 12th Class. I Study The Basics Of Coding On That Time I First Studied C++ I Find It Very Interesting Then Onwards Iam Crazy On Coding. Then I Take Bsc Computer Science And There I Studied Lots Of Programming Languages Like C, C++, Java, PHP, MySQL, Android, Shell, Visual Basic etc. It Was Very Interesting For Me. After Graduation I Take A Course Python Full Stack Developer From Baabtra. It Was A Turning Point In My Life Also A Good Decision I Take In My Life. </p>
+        <hr align="right">
+            <h2 class="txt" id="c">PORTFOLIO</h2>
+            <div class="container">
+                <div class="bg1">
+                    <img src="{% static 'images/bluekart.jpg' %}" alt="" >
+                    <h2>Bluekart Ecommerce Website</h2>
+                    <a href="https://project568.000webhostapp.com/"><button class="bt">Link</button></a>
+                </div>
+                <div class="bg2">
+                    <img src="{% static 'images/loginpage.jpg' %}" alt="">
+                    <h2>Login And Sign Up Page</h2>
+                    <a href="https://loginpageandsignup.herokuapp.com/logapp/log"><button class="bt">Link</button></a>
+                </div>
+                <div class="bg3">
+                    <img src="{% static 'images/porfolio.jpg' %}" alt="">
+                    <h2>Portfolio Website</h2>
+                    <a href=""><button class="bt">Link</button></a>
+                </div>
+                <div class="bg4">
+                    <img src="{% static 'images/manjappada.jpg' %}" alt="">
+                    <h2>Kerala Blasters Website</h2>
+                    <a href="https://manjappada8848.herokuapp.com/manjaapp/manja"><button class="bt">Link</button></a>
+                </div>
+                <div class="bg5">
+                    <img src="{% static 'images/cybersquare.jpg' %}" alt="">
+                    <h2>CyberSquare Website</h2>
+                    <a href="https://cybersquare5.herokuapp.com/cyberapp/cyber"><button class="bt">Link</button></a>
+                </div>
+            </div>
+            <hr align="right">
+            <div class="background12">
+                <h2 class="txt" id="d">CONTACT ME</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31319.337284472436!2d76.32711305684008!3d11.119547443701956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba62ea1bd39f74d%3A0xaa1276b61c637ab9!2sKaruvarakundu%2C%20Kerala%20676523!5e0!3m2!1sen!2sin!4v1644388590168!5m2!1sen!2sin" width="1000" height="550" style="border:0; padding: 250px;" allowfullscreen="" loading="lazy" ></iframe>
+                <form action="" method="get" style=" padding-left:650px;">
+                    <input type="text" style="width: 50%; height: 10%; border: 2px solid black; padding: 12px 15px; margin: 8px 0;" placeholder="Name"><br>
+                    <input type="text" style="width: 50%; height: 10%; border: 2px solid black; padding: 12px 15px; margin: 8px 0;" placeholder="Email"><br>
+                    <input type="text" style="width: 50%; height: 10%; border: 2px solid black; padding: 12px 15px; margin: 8px 0;" placeholder="Subject"><br>
+                    <textarea name="" id="" cols="30" rows="10" style="width: 50%; height: 10%; border: 2px solid black; padding: 12px 15px; margin: 8px 0;" placeholder="Project Details"></textarea><br>
+                    <a href="mailto:arunp4624@gmail.com"><input type="button" value="Contact Me" class="bt" style="width: 54%;"></a><br><br><br><br><br><br>
+                </form>
+            
+            </div>
+
+            <div class="background21">
+                <center>
+                <a href="https://www.instagram.com/codemaster8848/?hl=en"><img src="{% static 'images/instagram.png' %}" alt="" style="width: 50px; height: 50px;"></a>&nbsp;&nbsp;
+                <a href="https://codemaster234.blogspot.com/?m=1"><img src="{% static 'images/blogger.svg' %}" alt="" style="width: 50px; height: 50px;"></a>&nbsp;&nbsp;
+                <a href="https://m.youtube.com/channel/UCGwulcaGQq5bZAFPHxSwwSg"><img src="{% static 'images/youtube.svg' %}" alt="" style="width: 50px; height: 50px;"></a>&nbsp;&nbsp;
+                 </center>
+            </div>
+
+        
+
+        </div>
+</body>
+</html>
