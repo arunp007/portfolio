@@ -71,7 +71,7 @@ p{
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 350px 350px 350px;
     grid-gap: 200px;
-    padding: 50px;
+    padding: 100px 100px 100px 100px;
 }
 
 
